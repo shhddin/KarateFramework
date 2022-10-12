@@ -11,7 +11,8 @@ function fn() {
 		getUsersPath = '/public/v2/users';
 		jsonHolderBaseUri = 'https://jsonplaceholder.typicode.com';
 		getUsersPathJsonHolder = '/posts';
-		uiUrl = 'https://www.amazon.com/';
+		uiUrl = 'https://www.amazon.com';
+		ebayUrl= 'https://www.ebay.com';
 	}
 	// don't waste time waiting for a connection or if servers don't respond within 5 seconds
 	karate.configure('connectTimeout', 5000);
